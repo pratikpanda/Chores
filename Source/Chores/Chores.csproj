@@ -2,6 +2,18 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>Simple Chain and Tree Of Responsibility implementation in .NET.</Description>
+    <Authors>Pratik Panda</Authors>
+    <PackageLicenseUrl>https://github.com/pratikpanda/Chores/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageProjectUrl>https://github.com/pratikpanda/Chores</PackageProjectUrl>
+    <RepositoryType />
+    <PackageReleaseNotes>This is the initial release of Chorus and brings support for in process implementation of chain of responsibility and tree of responsibility patterns in .NET.
+- Supports sending of requests to a single handler, which keeps a reference to the next handler in the chain.
+- Supports sending of requests that return a value.
+- Support for sending of requests that do not return any value to be added soon.
+</PackageReleaseNotes>
+    <RepositoryUrl>https://github.com/pratikpanda/Chores</RepositoryUrl>
   </PropertyGroup>
 
 </Project>

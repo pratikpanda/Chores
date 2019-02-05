@@ -1,4 +1,5 @@
-﻿using System.Threading;
+﻿using System;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Chores
@@ -9,12 +10,23 @@ namespace Chores
     public interface IChores
     {
         /// <summary>
-        /// Asynchronously send a request to the first handler.
+        /// Asynchronously send a request to the first handler of the chain.
         /// </summary>
         /// <typeparam name="TResponse">Response type.</typeparam>
         /// <param name="request">Request object.</param>
+        /// <param name="handlerType">Type of handler object.</param>
         /// <param name="cancellationToken">Optional cancellation token.</param>
         /// <returns>A task that represents the send operation. The task result contains the handler response.</returns>
-        Task<TResponse> Send<TResponse>(IRequest<TResponse> request, CancellationToken cancellationToken = default(CancellationToken));
+        Task<TResponse> SendToChain<TResponse>(IRequest<TResponse> request, Type handlerType, CancellationToken cancellationToken = default(CancellationToken));
+
+        /// <summary>
+        /// Asynchronously send a request to the first handler of the tree.
+        /// </summary>
+        /// <typeparam name="TResponse">Response type.</typeparam>
+        /// <param name="request">Request object.</param>
+        /// <param name="handlerType">Type of handler object.</param>
+        /// <param name="cancellationToken">Optional cancellation token.</param>
+        /// <returns>A task that represents the send operation. The task result contains the handler response.</returns>
+        Task<TResponse> SendToTree<TResponse>(IRequest<TResponse> request, Type handlerType, CancellationToken cancellationToken = default(CancellationToken));
     }
 }

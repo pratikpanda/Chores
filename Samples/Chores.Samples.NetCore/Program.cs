@@ -8,7 +8,7 @@ namespace Chores.Samples.NetCore
         public static void Main(string[] args)
         {
             var chores = BuildChores();
-            var pong = chores.Send(new Ping { Message = "ping" }).Result;
+            var pong = chores.SendToChain(new Ping { Message = "ping" }, typeof(Chain.PingHandler)).Result;
             Console.ReadKey();
         }
 

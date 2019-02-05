@@ -1,7 +1,12 @@
-﻿using System.Threading;
+﻿using System;
+using System.Collections.Concurrent;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
-namespace Chores
+namespace Chores.Tree
 {
     /// <summary>
     /// Wrapper class for a handler that synchronously handles a request and returns a response.
@@ -11,7 +16,7 @@ namespace Chores
     public abstract class RequestHandler<TRequest, TResponse> : IRequestHandler<TRequest, TResponse>
         where TRequest : IRequest<TResponse>
     {
-        public abstract IRequestHandler<TRequest, TResponse> NextHandler { get; }
+        public abstract ConcurrentDictionary<Type, object> NextHandlers { get; }
 
         public abstract Task<TResponse> Handle(TRequest request, CancellationToken cancellationToken);
     }

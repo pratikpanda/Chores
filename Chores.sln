@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chores", "Source\Chores\Chores.csproj", "{1E7EE701-6C73-409E-9984-B3C3C69AB7CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chores", "Source\Chores\Chores.csproj", "{1E7EE701-6C73-409E-9984-B3C3C69AB7CE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{99A887C2-92CA-485F-8C3F-C1CB944C7E1B}"
 EndProject
@@ -13,11 +13,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{5516
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NetCore", "NetCore", "{2FE758A0-3CE8-41E4-9B5E-99DEE772AEA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chores.Samples.NetCore", "Samples\Chores.Samples.NetCore\Chores.Samples.NetCore.csproj", "{353DA566-A0BB-45E1-8A18-09CC1BD02558}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chores.Samples.NetCore", "Samples\Chores.Samples.NetCore\Chores.Samples.NetCore.csproj", "{353DA566-A0BB-45E1-8A18-09CC1BD02558}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chores.Samples", "Samples\Chores.Samples\Chores.Samples.csproj", "{9E8D5407-47D9-432F-9221-F6C8978381EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chores.Samples", "Samples\Chores.Samples\Chores.Samples.csproj", "{9E8D5407-47D9-432F-9221-F6C8978381EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chores.Tests", "Tests\Chores.Tests\Chores.Tests.csproj", "{8C36F716-8CCB-4B32-96EC-D03021E36596}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chores.Tests", "Tests\Chores.Tests\Chores.Tests.csproj", "{8C36F716-8CCB-4B32-96EC-D03021E36596}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7718A3B6-BC22-497F-A99D-34DD6967BBB6}"
+	ProjectSection(SolutionItems) = preProject
+		appveyor.yml = appveyor.yml
+		Build.ps1 = Build.ps1
+		Test.ps1 = Test.ps1
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

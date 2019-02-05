@@ -1,0 +1,1 @@
+﻿vstest.console /logger:Appveyor Tests\Chores.Tests\bin\Release\netcoreapp2.2\Chores.Tests.dll

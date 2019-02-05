@@ -1,6 +1,6 @@
 Chores
 =======
-[![Build Status](https://ci.appveyor.com/api/projects/status/github/pratikpanda/chorus?branch=master&svg=true)](https://ci.appveyor.com/project/pratikpanda/chorus) 
+[![Build status](https://ci.appveyor.com/api/projects/status/gnjs2mieub495pav/branch/master?svg=true)](https://ci.appveyor.com/project/pratikpanda/chores/branch/master)
 [![NuGet](https://img.shields.io/nuget/dt/chorus.svg)](https://www.nuget.org/packages/chorus) 
 [![NuGet](https://img.shields.io/nuget/vpre/chorus.svg)](https://www.nuget.org/packages/chorus)
 

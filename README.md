@@ -1,8 +1,8 @@
 Chores
 =======
 [![Build status](https://ci.appveyor.com/api/projects/status/gnjs2mieub495pav/branch/master?svg=true)](https://ci.appveyor.com/project/pratikpanda/chores/branch/master)
-[![NuGet](https://img.shields.io/nuget/dt/chorus.svg)](https://www.nuget.org/packages/chorus) 
-[![NuGet](https://img.shields.io/nuget/vpre/chorus.svg)](https://www.nuget.org/packages/chorus)
+[![NuGet](https://img.shields.io/nuget/dt/chores.svg)](https://www.nuget.org/packages/chores) 
+[![NuGet](https://img.shields.io/nuget/vpre/chores.svg)](https://www.nuget.org/packages/chores)
 
 Simple **Ch**ain **O**f **Res**ponsibility pattern implementation in .NET. 
 

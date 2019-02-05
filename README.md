@@ -11,7 +11,7 @@ Inspired by [MediatR](https://github.com/jbogard/MediatR).
 
 ### Installing Chores
 
-You should install [Chores with NuGet](https://www.nuget.org/packages/MediatR):
+You should install [Chores with NuGet](https://www.nuget.org/packages/Chores):
 
     Install-Package Chores
     

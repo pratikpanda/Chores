@@ -1,9 +1,13 @@
-Chores (CHain Of RESponsibility)
+Chores
 =======
 
-Simple chain of responsibility implementation in .NET
+Simple **Ch**ain **O**f **Res**ponsibility pattern implementation in .NET. 
+
+Provides an implementation of the Tree Of Responsibility pattern as well.
 
 In-process chaining with no dependencies.
+
+Inspired by [MediatR](https://github.com/jbogard/MediatR).
 
 ### Installing Chores
 

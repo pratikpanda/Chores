@@ -1,7 +1,7 @@
-Chores (CHain Of RESponsibility)
+Chores
 =======
 
-Simple chain of responsibility implementation in .NET
+Simple **Ch**ain **O**f **Res**ponsibility implementation in .NET. Implements the Tree Of Responsibility pattern as well.
 
 In-process chaining with no dependencies.
 
